@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\0ec38195-fb51-4797-bc4a-057696dd9a95.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\0ec38195-fb51-4797-bc4a-057696dd9a95.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\1b4d566f-2ba5-4cbc-b1ce-27a0cc4b08f1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1b4d566f-2ba5-4cbc-b1ce-27a0cc4b08f1.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\2b2c4474-835d-410d-b011-4e931b70f13d.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\2b2c4474-835d-410d-b011-4e931b70f13d.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\catedral.png",
+      "PackagePath": "staticwebassets\\Uploads\\catedral.png"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\cien.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\cien.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\congo.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\congo.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\guerra.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\guerra.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\harry.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\harry.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\lazarillo.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\lazarillo.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\quijote.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\quijote.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\viajera.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\viajera.jpg"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\aspnet\\src\\AppStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppStore.props",
+      "PackagePath": "build\\AppStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppStore.props",
+      "PackagePath": "buildMultiTargeting\\AppStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppStore.props",
+      "PackagePath": "buildTransitive\\AppStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

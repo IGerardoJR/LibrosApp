@@ -1,0 +1,65 @@
+@model AppStore.Models.Domain.Libro;
+@{
+
+}
+
+<form class="w-40" asp-action="Add" method="post" enctype="multipart/form-data">
+    <h2>Agregar Libro</h2>
+
+        @* Titulo *@
+    <div class="input-container">
+            <label asp-for="Titulo" class="w-40">Titulo</label>
+            <input type="text" class="input" asp-for="Titulo">
+        </div>
+        <div class="message-box pd-x-28 error">
+            <span asp-validation-for="Titulo"></span>
+        </div>
+
+        @* Autor *@
+        <div class="input-container">
+            <label asp-for="Autor" class="w-40">Titulo</label>
+            <input type="text" class="input" asp-for="Autor">
+        </div>
+        <div class="message-box pd-x-28 error">
+            <span asp-validation-for="Autor"></span>
+        </div>
+
+        @* Imagen *@
+        <div class="input-container">
+            <label asp-for="ImageFile" class="w-40">Image</label>
+            <input type="file" class="input" asp-for="ImageFile">
+        </div>
+        <div class="message-box pd-x-28 error">
+            <span asp-validation-for="ImageFile"></span>
+        </div>
+        @* Categorias *@
+        <div class="input-container">
+            <label asp-for="Categorias" class="w-40">Categorias</label>
+            <select asp-items="Model.CategoriasList" class="input" asp-for="Categorias" multiple>
+                <option value="">--Seleccionar--</option>
+            </select>
+        </div>
+        <div class="message-box pd-x-28 error">
+            <span asp-validation-for="Categorias"></span>
+        </div>
+        @* Fecha *@
+         <div class="input-container">
+            <label asp-for="CreateDate" class="w-40">Fecha publicacion</label>
+            <input type="text" class="input" asp-for="CreateDate">
+        </div>
+        <div class="message-box pd-x-28 error">
+            <span asp-validation-for="CreateDate"></span>
+        </div>
+        
+        @if(TempData["msg"] != null)
+        {
+            <div class="alert-mb1">
+                @TempData["msg"]
+            </div>
+        }
+
+        <div class="input-container">
+            <button class="btn btn-default">Guardar</button>
+            <a class="btn btn-sec" href="/Libro/LibroList">Ver Todo</a>
+        </div>
+</form>
